@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Site</title>
+    <script>
+        function teste(){
+            alert("NAO TA FUNCIONANDO BOBÂO LOL");
+        }
+    </script>
+    <style>
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin: -8px;
+        }
+        h1 {
+            margin-top: -8px;
+            font-size: 36px;
+        }
+        nav p {
+            text-decoration: none;
+            color: #fff;
+            margin: 5px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        section{
+         padding: 50px;   
+        }
+        footer {
+            background-color: #333;
+            color: #fff;    
+            padding: 9px;
+            margin: -8px;
+            text-align: center;
+        }
+        #Sobre{
+            background-image: url("nerdy.gif");
+            margin: -10px;
+        }
+        #Sobre h2{
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 14%;
+            font-size: 200%;
+        }
+        #Sobre p{
+            background-color: rgba(255, 255, 255, 0.9);
+            font-size: 120%;
+        }
+        #Portifolio h2{
+            font-size: 170%;
+        }
+        #Portifolio img{
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site do André</h1>
+        <nav>
+            <p onclick="teste()" >Página Inicial</a>
+            <p onclick="teste()" >Sobre Nós</a>
+            <p onclick="teste()" >Serviços</a>
+            <p onclick="teste()" >Contato</a>
+        </nav>
+    </header>
+
+    <section id="Sobre">
+        <h2>Sobre André</h2>
+        <p>André é um profissional confiável e comprometido. Ele é conhecido por cumprir prazos, mesmo sob pressão, e por sempre entregar resultados de alta qualidade. Sua capacidade de aprendizado rápido e sua disposição para assumir responsabilidades adicionais o tornam um ativo inestimável para qualquer equipe.</p>
+    </section>
+    <section id="Portifolio">
+        <h2>Meu portifolio</h2>
+        <div style="display: inline-block;">
+            <img src="porti.png"><img src="peguin.gif"><img src="gorilla.gif">
+        </div>
+        
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 André</p>
+    </footer>
+
+</body>
+</html>
