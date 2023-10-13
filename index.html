@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Meu Site</title>
+    <title>Andre</title>
     <script>
         function teste(){
             alert("NAO TA FUNCIONANDO BOBÂO LOL");
@@ -15,19 +15,21 @@
             text-align: center;
             margin: -8px;
         }
-        h1 {
-            margin-top: -8px;
-            font-size: 36px;
-        }
-        nav p {
+        header nav p {
             text-decoration: none;
             color: #fff;
             margin: 5px;
             display: inline-block;
             cursor: pointer;
         }
+        header nav p:first-child{
+            font-size: 36px;
+            position: absolute;
+            top: 5px;
+            left: 15px; 
+        }
         section{
-         padding: 50px;   
+            padding: 50px;   
         }
         footer {
             background-color: #333;
@@ -59,8 +61,8 @@
 </head>
 <body>
     <header>
-        <h1>Site do André</h1>
         <nav>
+            <p>Site do André</p>
             <p onclick="teste()" >Página Inicial</a>
             <p onclick="teste()" >Sobre Nós</a>
             <p onclick="teste()" >Serviços</a>
@@ -77,7 +79,6 @@
         <div style="display: inline-block;">
             <img src="./Assets/helpme.png"><img src="./Assets/peguin.gif"><img src="./Assets/gorilla.gif">
         </div>
-        
     </section>
 
 
