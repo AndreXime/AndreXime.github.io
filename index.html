@@ -1,90 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Andre</title>
-    <script>
-        function teste(){
-            alert("NAO TA FUNCIONANDO BOBÂO LOL");
-        }
-    </script>
-    <style>
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            margin: -8px;
-        }
-        header nav p {
-            text-decoration: none;
-            color: #fff;
-            margin: 5px;
-            display: inline-block;
-            cursor: pointer;
-        }
-        header nav p:first-child{
-            font-size: 36px;
-            position: absolute;
-            top: 5px;
-            left: 15px; 
-        }
-        section{
-            padding: 50px;   
-        }
-        footer {
-            background-color: #333;
-            color: #fff;    
-            padding: 9px;
-            margin: -8px;
-            text-align: center;
-        }
-        #Sobre{
-            background-image: url("./Assets/nerdy.gif");
-            margin: -10px;
-        }
-        #Sobre h2{
-            background-color: rgba(255, 255, 255, 0.9);
-            width: 20%;
-            font-size: 200%;
-        }
-        #Sobre p{
-            background-color: rgba(255, 255, 255, 0.9);
-            font-size: 120%;
-        }
-        #Portifolio h2{
-            font-size: 170%;
-        }
-        #Portifolio img{
-            height: 250px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Portfólio de André - Desenvolvedor Backend</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="overflow-x: hidden;">
+<body>
+    
     <header>
-        <nav>
-            <p>Site do André</p>
-            <p onclick="teste()" >Página Inicial</a>
-            <p onclick="teste()" >Sobre Nós</a>
-            <p onclick="teste()" >Serviços</a>
-            <p onclick="teste()" >Contato</a>
-        </nav>
+        <h1>Portfólio de André</h1>
+        <p>Desenvolvedor Backend Junior</p>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <img src="./Assets/monkeyComputer.jpg">
     </header>
 
-    <section id="Sobre">
-        <h2>Sobre André</h2>
-        <p>André é um profissional confiável e comprometido. Ele é conhecido por cumprir prazos, mesmo sob pressão, e por sempre entregar resultados de alta qualidade. Sua capacidade de aprendizado rápido e sua disposição para assumir responsabilidades adicionais o tornam um ativo inestimável para qualquer equipe.</p>
-    </section>
-    <section id="Portifolio">
-        <h2>Meu portifolio</h2>
-        <div style="display: inline-block;">
-            <img src="./Assets/helpme.png"><img src="./Assets/peguin.gif"><img src="./Assets/gorilla.gif">
-        </div>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Eu sou André, um desenvolvedor backend junior apaixonado por Node.js, MySQL e Spring.Sua capacidade de aprendizado rápido e sua disposição para assumir responsabilidades adicionais o tornam um ativo inestimável para qualquer equipe.</p>
     </section>
 
-
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <ul class="project-list">
+            <li>
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1.</p>
+            </li>
+            <li>
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto 2.</p>
+            </li>
+        </ul>
+    </section>
+    
     <footer>
-        <p>&copy; 2023 André</p>
+        <p>Você pode entrar em contato comigo pelo e-mail: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+        <p>&copy; 2023 André - Desenvolvedor Backend</p>
     </footer>
-
 </body>
 </html>
