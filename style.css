@@ -39,11 +39,27 @@ section {
     margin: 30px;
 }
 
-.project-list {
+#Tech{
+    margin-bottom: 30px;
+}
+#tech-list li{
+    border: 3px solid #948f8f;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 72px;
+    display: inline;
+}
+#tech-list li img{
+    height: 85px;
+    width: 85px;
+    border-radius: 10px;
+}
+
+.list {
     list-style: none;
     padding: 0;
 }
-.project-list li {
+#Projects li {
     border: 1px solid #ccc;
     margin: 10px 0;
     padding: 10px;
