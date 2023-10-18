@@ -41,15 +41,14 @@ section {
 }
 #tech-list li{
     border: 3px solid #948f8f;
-    border-radius: 10px;
-    margin-left: 20px;
-    padding-top: 72px;
-    display: inline;
+    border-radius: 15px;
+    margin: 5px;
+    display: inline-flex;
 }
 #tech-list li img{
     height: 85px;
     width: 85px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .list {
