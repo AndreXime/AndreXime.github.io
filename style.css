@@ -33,7 +33,12 @@ header ul li a {
 
 
 section {
-    margin: 30px;
+    margin: 30px;  
+}
+
+#sobre p{
+    font-size: 110%;
+    line-height: 30px;
 }
 
 #Tech{
