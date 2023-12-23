@@ -1,6 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+:root {
+    --cor-Pallet1: #282828;
+    --cor-Pallet2: #191919;
+    --cor-Pallet3: #ffffff;
+}
 .noselect{
     user-select: none;
 }
@@ -9,7 +14,8 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 70px;
-    background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(148,187,233,1) 100%);
+    color: var(--cor-Pallet3);
+    background: var(--cor-Pallet1);
     max-width: 100%;
 }
 
@@ -38,8 +44,7 @@ progress[value="6"]::-webkit-progress-value {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--cor-Pallet2);;
     text-align: center;
     top: 0;
     z-index: 5;
@@ -56,10 +61,11 @@ header ul li {
     margin: 0 10px;
 }
 header ul li a {
-    color: #fff;
+    color: var(--cor-Pallet3);
+    background-color: var(--cor-Pallet1);
     padding: 10px;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
+    border: 1px solid var(--cor-Pallet3);
+    border-radius: 15px;
     cursor: pointer;
 }
 
@@ -85,8 +91,8 @@ p, #Projects li > ul{
     margin: 5px;
 }
 #tech-list li img{
-    height: 55px;
-    width: 55px;
+    height: 60px;
+    width: 60px;
 }
 
 details summary {
@@ -100,7 +106,7 @@ details summary {
     padding: 0;
 }
 #Projects > li {
-    border: 2px solid #0f1515;
+    border: 5px solid #0f1515;
     border-radius: 20px;
     margin: 10px 0;
     padding: 10px;
@@ -110,14 +116,24 @@ details summary {
     max-width: 100%;
 }
 
+#Dark,#Light{
+	background-color: var(--cor-Pallet3);
+	border-radius: 30px;
+	cursor: pointer;
+	color: var(--cor-Pallet1);
+	font-family: Trebuchet MS;
+	font-size: 17px;
+	padding: 15px 30px;
+}
+
 footer {
     text-align: center;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--cor-Pallet2);
     padding: 10px 0;
 }
 footer p a{
     font-size: 22px;
-    color:whitesmoke;
     padding: 10px;
+    color: var(--cor-Pallet3);
+    text-decoration: none;
 }
