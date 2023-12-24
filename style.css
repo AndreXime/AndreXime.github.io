@@ -2,9 +2,9 @@ html {
     scroll-behavior: smooth;
 }
 :root {
-    --cor-Pallet1: #282828;
-    --cor-Pallet2: #191919;
-    --cor-Pallet3: #ffffff;
+    --cor-Pallet1: #ffffff;
+    --cor-Pallet2: #72A0C1;
+    --cor-Pallet3: #000000;
 }
 .noselect{
     user-select: none;
@@ -12,13 +12,63 @@ html {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    margin-left: 80px;
     padding: 0;
-    padding-top: 70px;
     color: var(--cor-Pallet3);
     background: var(--cor-Pallet1);
     max-width: 100%;
 }
 
+header {
+    height: 100%;
+    width: 88px;
+    background-color: var(--cor-Pallet2);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header ul {
+    list-style-type: none;
+    margin-left: -68%;
+}
+header ul li {
+    display: block;
+    margin: 25px;
+}
+header ul li a {
+    color: var(--cor-Pallet3);
+    background-color: var(--cor-Pallet1);
+    padding: 10px;
+    border: 1px solid var(--cor-Pallet3);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+section {
+    margin: 30px;
+}
+p, #Projects li > ul{
+    font-size: 110%;
+    line-height: 30px;
+}
+
+#Tech{
+    margin-bottom: 30px;
+}
+#tech-list {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+#tech-list li{
+    display: inline-flex;
+    margin: 5px;
+}
+#tech-list li img{
+    height: 60px;
+    width: 60px;
+}
 progress {
     width: 30%;
     height: 35px;
@@ -43,64 +93,15 @@ progress[value="6"]::-webkit-progress-value {
     background-color: #4CAF50; 
 }
 
-header {
-    background-color: var(--cor-Pallet2);;
-    text-align: center;
-    top: 0;
-    z-index: 5;
-    position: fixed;
-    width: 100%;
-}
-header ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 10px 0;
-}
-header ul li {
-    display: inline;
-    margin: 0 10px;
-}
-header ul li a {
-    color: var(--cor-Pallet3);
-    background-color: var(--cor-Pallet1);
-    padding: 10px;
-    border: 1px solid var(--cor-Pallet3);
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-section {
-    margin: 30px;
-    margin-top: 40px;  
-}
-p, #Projects li > ul{
-    font-size: 110%;
-    line-height: 30px;
-}
-
-#Tech{
-    margin-bottom: 30px;
-}
-#tech-list {
-    list-style: none;
-    padding: 0;
-    position: relative;
-}
-#tech-list li{
-    display: inline-flex;
-    margin: 5px;
-}
-#tech-list li img{
-    height: 60px;
-    width: 60px;
-}
-
 details summary {
     cursor: pointer; 
     font-weight: bold; 
     margin-left: 5px;
 }
-
+details img{
+    max-width: 100%;
+    max-height: 100%;
+}
 #Projects{
     list-style: none;
     padding: 0;
@@ -116,14 +117,10 @@ details summary {
     max-width: 100%;
 }
 
-#Dark,#Light{
+#Tema{
 	background-color: var(--cor-Pallet3);
-	border-radius: 30px;
-	cursor: pointer;
 	color: var(--cor-Pallet1);
 	font-family: Trebuchet MS;
-	font-size: 17px;
-	padding: 15px 30px;
 }
 
 footer {
