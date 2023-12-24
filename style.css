@@ -3,7 +3,7 @@ html {
 }
 :root {
     --cor-Pallet1: #ffffff;
-    --cor-Pallet2: #72A0C1;
+    --cor-Pallet2: #191919;
     --cor-Pallet3: #000000;
 }
 .noselect{
@@ -29,30 +29,35 @@ header {
 }
 header ul {
     list-style-type: none;
-    margin-left: -68%;
+    margin-left: -40%;
 }
 header ul li {
-    display: block;
-    margin: 25px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 header ul li a {
+    flex-grow: 1;
     color: var(--cor-Pallet3);
     background-color: var(--cor-Pallet1);
     padding: 10px;
     border: 1px solid var(--cor-Pallet3);
     border-radius: 15px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 }
 
 section {
     margin: 30px;
 }
-p, #Projects li > ul{
+p, #Projects li > ul, #Sobre ul{
     font-size: 110%;
     line-height: 30px;
+    list-style-type: none;
 }
-
 #Tech{
     margin-bottom: 30px;
 }
@@ -68,39 +73,39 @@ p, #Projects li > ul{
 #tech-list li img{
     height: 60px;
     width: 60px;
+    border-radius: 5px;
 }
 progress {
-    width: 30%;
+    width: 50%;
     height: 35px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     appearance: none;
+    margin-bottom: 10px;
 }
 progress::-webkit-progress-bar {
     background-color: #eee;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 progress[value="1"]::-webkit-progress-value,
 progress[value="2"]::-webkit-progress-value {
     background-color: #FF6347;
+    border-radius: 10px;
 }
 progress[value="3"]::-webkit-progress-value,
 progress[value="4"]::-webkit-progress-value {
-    background-color: #FFD700; 
+    background-color: #FFD700;
+    border-radius: 10px;
 }
 progress[value="5"]::-webkit-progress-value,
 progress[value="6"]::-webkit-progress-value {
     background-color: #4CAF50; 
+    border-radius: 10px;
 }
 
 details summary {
     cursor: pointer; 
     font-weight: bold; 
     margin-left: 5px;
-}
-details img{
-    max-width: 100%;
-    max-height: 100%;
 }
 #Projects{
     list-style: none;
@@ -112,25 +117,23 @@ details img{
     margin: 10px 0;
     padding: 10px;
 }
-#Projects img{
-    max-height: 100%;
-    max-width: 100%;
-}
 
 #Tema{
 	background-color: var(--cor-Pallet3);
 	color: var(--cor-Pallet1);
 	font-family: Trebuchet MS;
+    font-size: 16px;
 }
 
 footer {
     text-align: center;
     background-color: var(--cor-Pallet2);
     padding: 10px 0;
+    color: #ffffff;
 }
 footer p a{
     font-size: 22px;
     padding: 10px;
-    color: var(--cor-Pallet3);
+    color: #ffffff;
     text-decoration: none;
 }
