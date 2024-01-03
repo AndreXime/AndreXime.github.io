@@ -58,6 +58,10 @@ header ul li a {
 section {
     margin: 30px;
 }
+#Sobre li{
+    list-style: disc;
+    padding-bottom: 8px;
+}
 p, #Projects li > ul, #Sobre ul{
     font-size: 110%;
     line-height: 30px;
