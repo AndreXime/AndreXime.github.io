@@ -1,4 +1,9 @@
-function Scroll(sectionId) {
+function Action(sectionId) {
+    if(sectionId == 'Abrir')
+      window.location.href = './indexs/index2.html';
+    if(sectionId == 'Voltar')
+      window.location.href = '../index.html';
+    
     var section = document.getElementById(sectionId);
     if (section){      
       window.scrollTo({
