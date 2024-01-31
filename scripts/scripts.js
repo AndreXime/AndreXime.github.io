@@ -1,8 +1,8 @@
 function Action(sectionId) {
     if(sectionId == 'Abrir')
-      window.location.href = './indexs/index2.html';
+      window.location.href = 'areas.html';
     if(sectionId == 'Voltar')
-      window.location.href = '../index.html';
+      window.location.href = 'index.html';
     
     var section = document.getElementById(sectionId);
     if (section){      
@@ -13,7 +13,6 @@ function Action(sectionId) {
     }
 }
 
-document.getElementById('Tema').addEventListener('click', Theme)
 let ThemeState = true
 function Theme() {
   if(!ThemeState){
