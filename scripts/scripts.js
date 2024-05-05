@@ -1,18 +1,3 @@
-function Action(sectionId) {
-    if(sectionId == 'Abrir')
-      window.location.href = 'areas.html';
-    if(sectionId == 'Voltar')
-      window.location.href = 'index.html';
-    
-    var section = document.getElementById(sectionId);
-    if (section){      
-      window.scrollTo({
-        top: (section.offsetTop - 18),
-        behavior: 'smooth'
-      });
-    }
-}
-
 let ThemeState = true
 function Theme() {
   if(!ThemeState){

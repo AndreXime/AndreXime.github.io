@@ -12,47 +12,30 @@ html {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    margin-left: 80px;
     padding: 0;
     color: var(--cor-Pallet3);
     background: var(--cor-Pallet1);
     max-width: 100%;
 }
+hr{
+    border: none; 
+    height: 2px;
+    background-color: var(--cor-Pallet3);
+    margin: 20px;
+}
+#Menu summary{
+    margin-bottom: 20px;
+}
 
-header {
-    height: 100%;
-    width: 88px;
-    background-color: var(--cor-Pallet2);
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-header ul {
-    list-style-type: none;
-    margin-left: -40%;
-}
-header ul li {
-    display: flex;
-    flex-grow: 1;
-    margin-right: 10px;
-    margin-bottom: 5px;
-}
-header ul li a {
-    flex-grow: 1;
-    color: var(--cor-Pallet3);
-    background-color: var(--cor-Pallet1);
-    padding: 10px;
-    border: 1px solid var(--cor-Pallet3);
-    border-radius: 15px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-}
 #Tema{
     background-color: var(--cor-Pallet3);
     color: var(--cor-Pallet1);
     font-family: Trebuchet MS;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
 }
 
 section {
@@ -67,6 +50,11 @@ p, #Projects li > ul, #Sobre ul{
     line-height: 30px;
     list-style-type: none;
 }
+
+#progressheader{
+    font-size: 150%;
+}
+
 #Tech{
     margin-bottom: 30px;
 }
@@ -80,9 +68,10 @@ p, #Projects li > ul, #Sobre ul{
     margin: 5px;
 }
 #tech-list li img{
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     border-radius: 5px;
+    background-color: white;
 }
 progress {
     width: 50%;
@@ -137,4 +126,23 @@ details summary {
     width: 50px;
     height: 50px;
     padding-right: 15px;
+}
+
+#Skills img{
+    width: 70px;
+    height: 70px;
+}
+#Skills ul li{
+    font-size: 110%;
+    margin: 10px;
+    font-weight: bold;
+}
+.badge {
+    display: inline-flex;
+	width: 90px;
+	height: 90px;
+	border-radius: 25%;
+    align-items: center; 
+    justify-content: center;
+    background: whitesmoke;
 }

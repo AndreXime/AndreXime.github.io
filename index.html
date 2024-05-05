@@ -9,105 +9,115 @@
     <link rel="icon" type="image/x-icon" href="Assets/icon2.ico">
 </head>
 <body>
-    <header>
-        <ul class="noselect" id="sidebar">
-            <li><a onclick="Action('Sobre');">Sobre</a></li>
-            <li><a onclick="Action('Tech');">Techs</a></li>
-            <li><a onclick="Action('Projetos');">Projetos</a></li>
-            <li><a onclick="Action('Contato');">Contato</a></li>
-            <li><a onclick="Action('Abrir')">Areas</a></li>
-            <li><a id="Tema" onclick="Theme()">Tema</a></li>
-        </ul>
-    </header>
-
     <section id="Sobre">
         <h2>Sobre Mim</h2>
-        <p>André Ximenes - Data Enginer</p>
         <p>
-            Cientista de Dados altamente qualificado com expertise em <b>Python, Machine learning, Excel, SQL, Git</b>.
-            Proveniente de uma sólida compreensão dos princípios estatísticos e uma abordagem orientada para resultados.
-            Especializado em análise de dados, modelagem preditiva e implementação de soluções inovadoras.
+            Olá! Sou o André, um desenvolvedor Full Stack apaixonado por criar soluções inovadoras. 
+            Com habilidades tanto no front-end quanto no back-end, 
+            estou focado em fornecer produtos de alta qualidade e experiências excepcionais aos usuários. 
+            Pronto para enfrentar novos desafios e contribuir para o sucesso de projetos emocionantes.
         </p>
 
         <p><b>Cursos atualmente inscritos</b></p>
         <ul>
             <li>Curso de ciencias da computação - 4° Semestre</li>
             <li>Formação Python Developer - DIO</li>
-            <li>Curso Web Moderno Completo com JavaScript + Projetos - Udemy</li>
-            <li>Curso de Excel do Básico ao Avançado, Macro e VBA + Power BI - Udemy</li>
+            <li>Python AI Backend Developer - DIO</li>
         </ul>
     </section>
-    
+    <hr>
+
+    <section id="Skills">
+        <h2>Habilidades</h2>
+        <h3>Hard Skills</h3>
+        <ul>
+            <li class="badge"><img src="Assets/htmlcss.png"></li>
+            <li class="badge"><img src="Assets/sql.png"></li>
+            <li class="badge"><img src="Assets/Git.png"></li>
+            <li class="badge"><img src="Assets/python.png"></li>
+        </ul>
+        <h3>Softs Skills</h3>
+        <ul>
+            <li>Comunicação</li>
+            <li>Gestão do Tempo</li>
+            <li>Resolução de Problemas</li>
+        </ul>
+        
+    </section>
+    <hr>
+
     <section id="Tech">
-        <h2>Tecnologias</h2>
-        <ul id="tech-list">
-            <li><img src="Assets/python.jpg"></li>
-            <progress value="4" max="6"></progress>
-            <details>
-                <summary>Certificados</summary>
-                <img src="Assets/Certificados/Python1.png" width="400" height="300">
-                <img src="Assets/Certificados/Python2.png" width="400" height="300">
-            </details>
-        </ul>
-        <ul id="tech-list">
-            <li><img src="Assets/machine.png"></li>
-            <progress value="0" max="6"></progress>
-            <details>
-                <summary>Certificados</summary>
-                <p>🏗️🚧 Em Construção 🚧🏗️</p>
-            </details>
-        </ul>
-        <ul id="tech-list">
-            <li><img src="Assets/excel.png"></li>
-            <progress value="1" max="6"></progress>
-            <details>
-                <summary>Certificados</summary>
-                <p>🏗️🚧 Em Construção 🚧🏗️</p>
-            </details>
-        </ul>
-        <ul id="tech-list">
-            <li><img src="Assets/sql.png"></li>
-            <progress value="1" max="6"></progress>
-            <details>
-                <summary>Certificados</summary>
-                <p>🏗️🚧 Em Construção 🚧🏗️</p>
-            </details>
-        </ul>
-        <ul id="tech-list">
-            <li><img src="Assets/Git.png"></li>
-            <progress value="2" max="6"></progress>
-            <details>
-                <summary>Certificados</summary>
-                <p>🏗️🚧 Em Construção 🚧🏗️</p>
-            </details>
-        </ul>  
+        <details>
+            <summary id="progressheader">Progessos</summary>
+            <ul id="tech-list">
+                <li><img src="Assets/python.png"></li>
+                <progress value="4" max="6"></progress>
+                <details>
+                    <summary>Certificados</summary>
+                    <img src="Assets/Certificados/Python1.png" width="400" height="300">
+                    <img src="Assets/Certificados/Python2.png" width="400" height="300">
+                </details>
+            </ul>
+            <ul id="tech-list">
+                <li><img src="Assets/sql.png"></li>
+                <progress value="3" max="6"></progress>
+                <details>
+                    <summary>Certificados</summary>
+                    <p>🏗️🚧 Em Construção 🚧🏗️</p>
+                </details>
+            </ul>
+            <ul id="tech-list">
+                <li><img src="Assets/Git.png"></li>
+                <progress value="3" max="6"></progress>
+                <details>
+                    <summary>Certificados</summary>
+                    <p>🏗️🚧 Em Construção 🚧🏗️</p>
+                </details>
+            </ul> 
+            <ul id="tech-list">
+                <li><img src="Assets/badge1.png"></li>
+                <progress value="4" max="6"></progress>
+                <details>
+                    <summary>Certificados</summary>
+                    <p>🏗️🚧 Em Construção 🚧🏗️</p>
+                </details>
+            </ul> 
+        </details> 
     </section>
+    <hr>        
 
     <section id="Projetos">
-        <h2>Projetos</h2>
-        <ul id="Projects">
-            <li>
-                <pre>
-⣿⣿⣿⣿⣿⡿⠿⠟⠛⠛⠛⠻⠿⠟⠛⠛⠛⠻⠿⢿⣿⣿⣿⣿⣿⣿⣿
-⣿⡿⠟⠛⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⠉⠛⠿⣿⣿⣿
-⣿⠇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⣿⣿
-⣿⣆⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢹⣿
-⣿⣿⣿⣦⡤⠄⣠⣤⣤⣤⣤⣤⣤⣤⣄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿
-⣿⣿⣿⣿⠄⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠄⠄⠄⠄⠄⠄⠄⠄⣸⣿
-⣿⣿⣿⣿⡀⢸⣿⣿⣿⣿⡿⢟⣫⣭⣿⣿⠃⠄⠄⠄⠄⠄⠄⠄⢠⣿⣿
-⣿⣿⣿⣿⣧⠄⠩⢿⠯⣓⠛⣻⣿⣿⣿⣿⣄⣀⠐⠄⠄⠄⠄⢀⣾⣿⣿
-⣿⣿⣿⣿⡿⠦⠄⣰⡒⠶⢿⣿⣿⣿⣿⠿⣿⣿⣭⣤⠄⠄⢀⣿⣿⣿⣿
-⣿⣿⣿⣿⣁⣀⡉⠁⠤⠄⠒⠛⠛⢋⣉⣵⣾⣿⣿⣿⡇⢠⣾⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣯⡀⢲⣶⣶⠿⠿⠿⠿⠿⣿⣿⣿⣿⣿⡇⠸⠿⢿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣾⡿⠋⠉⠄⠄⠉⠛⠛⠉⠉⠄⠄⠄⠈⢹⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢠⡄⢀⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⡇⢸⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⢀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣸⡇⢸⣿
-                </pre>
-            </li>
-        </ul>
+        <details>
+            <summary id="progressheader">Projetos</summary>
+            <ul id="Projects">
+                <li>
+                    <pre>
+    ⣿⣿⣿⣿⣿⡿⠿⠟⠛⠛⠛⠻⠿⠟⠛⠛⠛⠻⠿⢿⣿⣿⣿⣿⣿⣿⣿
+    ⣿⡿⠟⠛⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⠉⠛⠿⣿⣿⣿
+    ⣿⠇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⣿⣿
+    ⣿⣆⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢹⣿
+    ⣿⣿⣿⣦⡤⠄⣠⣤⣤⣤⣤⣤⣤⣤⣄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿
+    ⣿⣿⣿⣿⠄⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠄⠄⠄⠄⠄⠄⠄⠄⣸⣿
+    ⣿⣿⣿⣿⡀⢸⣿⣿⣿⣿⡿⢟⣫⣭⣿⣿⠃⠄⠄⠄⠄⠄⠄⠄⢠⣿⣿
+    ⣿⣿⣿⣿⣧⠄⠩⢿⠯⣓⠛⣻⣿⣿⣿⣿⣄⣀⠐⠄⠄⠄⠄⢀⣾⣿⣿
+    ⣿⣿⣿⣿⡿⠦⠄⣰⡒⠶⢿⣿⣿⣿⣿⠿⣿⣿⣭⣤⠄⠄⢀⣿⣿⣿⣿
+    ⣿⣿⣿⣿⣁⣀⡉⠁⠤⠄⠒⠛⠛⢋⣉⣵⣾⣿⣿⣿⡇⢠⣾⣿⣿⣿⣿
+    ⣿⣿⣿⣿⣿⣯⡀⢲⣶⣶⠿⠿⠿⠿⠿⣿⣿⣿⣿⣿⡇⠸⠿⢿⣿⣿⣿
+    ⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣾⡿⠋⠉⠄⠄⠉⠛⠛⠉⠉⠄⠄⠄⠈⢹⣿
+    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢠⡄⢀⣿
+    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⡇⢸⣿
+    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⢀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣸⡇⢸⣿
+                    </pre>
+                </li>
+            </ul>
+        </details>
     </section>
+    <hr>
 
+    <section id="Menu">
+        <a id="Tema" onclick="Theme()">Tema</a>
+        <a id="Tema" onclick="alert('Nao ta pronto ainda .😭😭😭')">English</a>
+    </section>
     <section id="Contato">
         <h2>Contato</h2>
         <p>Você pode entrar em contato comigo por meio:</p>
