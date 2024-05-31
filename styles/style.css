@@ -6,9 +6,6 @@ html {
     --cor-Pallet2: #191919;
     --cor-Pallet3: #ffffff;
 }
-.noselect{
-    user-select: none;
-}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,15 +13,6 @@ body {
     color: var(--cor-Pallet3);
     background: var(--cor-Pallet1);
     max-width: 100%;
-}
-hr{
-    border: none; 
-    height: 2px;
-    background-color: var(--cor-Pallet3);
-    margin: 20px;
-}
-#Menu summary{
-    margin-bottom: 20px;
 }
 
 #Tema{
@@ -41,91 +29,39 @@ hr{
 section {
     margin: 30px;
 }
-#Sobre li{
-    list-style: disc;
-    padding-bottom: 8px;
-}
-p, #Projects li > ul, #Sobre ul{
-    font-size: 110%;
-    line-height: 30px;
+p{
+    font-size: 125%;
+    line-height: 25px;
     list-style-type: none;
 }
 
-#progressheader{
-    font-size: 150%;
-}
-
-#Tech{
-    margin-bottom: 30px;
-}
-#tech-list {
-    list-style: none;
-    padding: 0;
-    position: relative;
-}
-#tech-list li{
-    display: inline-flex;
-    margin: 5px;
-}
-#tech-list li img{
-    height: 70px;
-    width: 70px;
-    border-radius: 5px;
-    background-color: white;
-}
-progress {
-    width: 50%;
-    height: 35px;
-    border-radius: 10px;
-    appearance: none;
-    margin-bottom: 10px;
-}
-progress::-webkit-progress-bar {
-    background-color: #eee;
-    border-radius: 10px;
-}
-progress[value="1"]::-webkit-progress-value,
-progress[value="2"]::-webkit-progress-value {
-    background-color: #FF6347;
-    border-radius: 10px;
-}
-progress[value="3"]::-webkit-progress-value,
-progress[value="4"]::-webkit-progress-value {
-    background-color: #FFD700;
-    border-radius: 10px;
-}
-progress[value="5"]::-webkit-progress-value,
-progress[value="6"]::-webkit-progress-value {
-    background-color: #4CAF50; 
-    border-radius: 10px;
-}
-
-details summary {
-    cursor: pointer; 
-    font-weight: bold; 
-    margin-left: 5px;
-}
 #Projects{
     list-style: none;
     padding: 0;
 }
 #Projects > li {
-    border: 5px solid #0f1515;
-    border-radius: 20px;
     margin: 10px 0;
     padding: 10px;
 }
+#Projects img{
+    margin-left: 40px;
+    width: 200px;
+    height: 200px;
+}
 
-
-#Contato {
-    background-color: var(--cor-Pallet1);
-    padding: 10px 0;
-    color: var(--cor-Pallet3);
+#Sobre p:first-child{
+    font-size: 200%;
+    font-weight: bold;
+}
+#Sobre p:nth-child(2){
+    font-size: 250%;
+    font-weight: bold;
 }
 #Contato img{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     padding-right: 15px;
+    margin-top: 10px;
 }
 
 #Skills img{
